@@ -64,6 +64,12 @@ export const StyledDiv = styled.div`
     margin-left: 5px;
     font-size: ${constants.fontSizeMedium};
     color: ${constants.colorMutedLight};
+
+    &:before {
+    content: "»";
+    margin-left: 5px;
+    margin-right: 6px;
+    }
   }
 
   .sponsor-button {
